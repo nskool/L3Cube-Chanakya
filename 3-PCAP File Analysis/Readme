@@ -1,0 +1,5 @@
+Instructions:
+1.The program uses pcap.h library files. 
+Compile as:
+	$gcc pcap_analysis.c -lpcap
+2.Run while passing either of the two pcap files as the argument

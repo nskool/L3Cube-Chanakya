@@ -1,0 +1,38 @@
+[nikhil@arch-nsk 1-Weblog Analysis]$ ./a.out weblog.txt 
+***********************************
+*The format of the weblog is 'NCSA Combined logfile format'
+*Meaning of the analytical terms: 
+*Hit: Any request to the server, which is logged.
+*Number of Sites: Count of unique client ip addresses 
+*Pages: HTML documents, that are exclusive of web content such as images, audio or video content
+*Number of files: The files that were successfully returned to the client
+*Total number of bytes: Size of data being exchanged
+***********************************
+Analysis: 
+***********************************
+Number of sites:		 167
+Total 'pages' accessed :  	 2463
+Number of files :  		 2196
+Total number of bytes exchanged: 74726 Kbytes
+***********************************
+Hits per site:  	
+www.recipewithme.com	17
+www.kinneryandrajan.com	849
+www.twibuzz.com		1912
+Total hits (Verification by adding individual site hits): 2778
+***********************************
+Hits by Response Code:		Count	Percentage
+Code 200-OK:			2196	79.05%
+Code 206-Partial Content:	1	0.04%
+Code 302-Found:			151	5.44%
+Code 304-Not modified: 		203	7.31%
+Code 404-Not found: 		226	8.14%
+Code 500-Internal Server Error: 1	0.04%
+***********************************
+		Maximum Observed	Average
+Files per day: 		426		366
+Hits per day: 		583		463
+Sites per day: 		53		27
+kb files per day: 	15391		12454
+***********************************
+[nikhil@arch-nsk 1-Weblog Analysis]$ 

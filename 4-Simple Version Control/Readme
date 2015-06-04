@@ -1,0 +1,7 @@
+1. Compile the code
+2. Let there be an input file-input.txt
+3. To commit the file:
+$java svc input.txt
+4. Commits may be done any number of times.
+5. To display an 'n'th version committed file:
+$java svc n
